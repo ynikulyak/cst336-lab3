@@ -11,7 +11,7 @@
 	<div id="parent">
 	<div class="card" id="form">
 	<h1>Sign Up</h1>
-	<form id="signupForm" method="post" action="welcome.php">
+	<form id="signupForm" method="post" action="welcome.html">
 	<label for="fname">First Name: </label>
  	<input type="text" name="fname" id="fname"><br>
 	<label for="lname">Last Name: </label> <input type="text" name="lname" id="lname"><br>
