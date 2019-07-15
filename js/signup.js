@@ -9,6 +9,7 @@
 				success: function(result, status){
 					//alert(result.city);
 					if($("#zip").val().length == 5){
+						$("#zipError").html(" ");
 						$("#city").html(result.city);
 						$("#latitude").html(result.latitude);
 						$("#longt").html(result.longitude);
