@@ -1,0 +1,88 @@
+body#welcome {
+	background-color: #F0F8FF;
+}
+
+body#main {
+	background-color: #E0FFFF;
+}
+
+footer {
+	font-size: small;
+	color: grey;
+}
+
+footer > div {
+	display: flex;
+	justify-content: center;
+}
+
+#passwordError {
+	color: #C71585;
+}
+
+#passwordAgainError {
+	color: #FF4500;
+}
+
+#logo {
+	margin-right: 10px;
+}
+
+#congrat {
+	text-align: center;
+}
+
+div#parent {
+	margin-top: 40px;
+}
+
+div#form {
+	border: 1px inset #AFEEEE;
+	width: 40%;
+	margin: 0px auto;
+	font-size: 1.1em;
+	padding: 15px;
+}
+
+form {
+	margin-top: 35px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.btn {
+	margin-top: 15px;
+}
+
+#image {
+width: 40%;
+margin: 0px auto;}
+
+#congrats {
+	margin-top: 40px;
+	width: 600px;
+	height: 200px;
+}
+
+#zipError {
+	color: #800080;
+}
+
+#usernameError {
+	color: #FF0000;
+}
+
+#word {
+	font-weight: bold;
+}
+
+#label1 {
+	margin-right: 20px;
+}
+
+#label2 {
+	margin-right: 80px;
+}
+
