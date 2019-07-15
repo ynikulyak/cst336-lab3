@@ -94,7 +94,7 @@
 				$("#passwordError").html("Required 6 chars minimum");
 				isValid = false;
 			}
-			if($("#password").val() != $("passwordAgain").val()){
+			if($("#password").val() != $("#passwordAgain").val()){
 				$("#passwordAgainError").html("Password mismatch!");
 				isValid = false;
 			}
